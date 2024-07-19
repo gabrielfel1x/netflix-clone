@@ -1,0 +1,56 @@
+.main-section {
+  background-image: url("../assets/img/banner-image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 60px;
+  position: relative;
+}
+
+.banner-logo {
+  height: 180px;
+}
+
+.main-buttons {
+  gap: 10px;
+}
+
+.watch-button {
+  background-color: #fff;
+  border: none;
+  padding: 10px 30px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch-button img {
+  height: 15px;
+  width: 10px;
+}
+
+.info-button {
+  background-color: #666666;
+  border: none;
+  padding: 10px 30px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.info-button img {
+  height: 15px;
+  width: 15px;
+}
+
+.button-icon,
+.info-icon {
+  vertical-align: middle;
+}

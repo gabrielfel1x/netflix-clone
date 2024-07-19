@@ -1,0 +1,67 @@
+.navbar {
+  background: #181818;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.nav-list {
+  margin-left: 20px;
+  margin-top: 5px;
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  cursor: pointer;
+}
+
+li {
+  transition: all 300ms ease;
+}
+
+.nav-list li:hover {
+  transform: scale(1.1);
+}
+
+.active {
+  color: #fff;
+}
+
+.play-icon {
+  transform: rotate(90deg);
+}
+
+.user-actions {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: #fff;
+}
+
+.user-actions img {
+  height: 15px;
+  width: 15px;
+}
+
+.user-actions .user-icon {
+  height: 35px;
+  width: 35px;
+  border-radius: 4px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+}
+
+nav > div {
+  padding: 30px 50px;
+  display: flex;
+  color: #ffffffad;
+  gap: 20px;
+}

@@ -1,0 +1,45 @@
+footer {
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-links div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-links > div > a {
+  color: #ffffff53;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.service-code {
+  color: #ffffff53;
+  border: 2px solid #ffffff53;
+  padding: 5px;
+  background-color: transparent;
+  width: 150px;
+}
+
+.search-icon,
+.play-icon,
+.notification-icon,
+.info-icon {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
